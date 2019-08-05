@@ -1,0 +1,50 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vsuite\n"
+"POT-Creation-Date: 2019-06-17 16:03+0200\n"
+"PO-Revision-Date: 2017-10-09 15:47+0200\n"
+"Last-Translator: Abdo Hamoud <abdo.host@yahoo.com>\n"
+"Language-Team: Tatwerat Team <admin@tatwerat.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: nbproject\n"
+
+#: includes/templates/template-page.php:3
+msgid "Subscription List"
+msgstr ""
+
+#: includes/templates/template-page.php:10
+msgid "Client"
+msgstr ""
+
+#: includes/templates/template-page.php:11
+msgid "Package"
+msgstr ""
+
+#: includes/templates/template-page.php:12
+msgid "Payment Status List"
+msgstr ""
+
+#: includes/templates/template-page.php:13
+msgid "Amount"
+msgstr ""
+
+#: includes/templates/template-page.php:14
+msgid "Create AT"
+msgstr ""
+
+#: includes/templates/template-page.php:15
+msgid "Actions"
+msgstr ""
