@@ -30,13 +30,22 @@ if (!defined('ABSPATH'))
 define('AH_VERSION', '1.0.0');
 define('AH_URL', plugins_url('', __FILE__));
 define('AH_PATH', plugin_dir_path(__FILE__));
-define('AH_KEY', '');
+define('AH_KEY', 'AIzaSyCIuVnDuCtVW6IPvOKEC59Wxwn829mqpEk');
 
-// load textdomain
-load_plugin_textdomain('ah-yt', false, AH_PATH . '/languages/');
+/**
+ * Load plugin textdomain.
+ *
+ * @since 1.0.0
+ */
+function ah_load_textdomain() {
+    load_plugin_textdomain('ah_yt', false, basename(dirname(__FILE__)) . '/languages/');
+}
+
+add_action('plugins_loaded', 'ah_load_textdomain');
+
 
 // require plugin widgets
-require_once (AH_PATH . 'includes/ah-widget.php');
+require_once (AH_PATH . '/includes/ah-widget.php');
 
 // require plugin class
 require_once (AH_PATH . '/includes/AHYT.php');

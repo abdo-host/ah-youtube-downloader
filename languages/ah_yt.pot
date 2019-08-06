@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vsuite\n"
-"POT-Creation-Date: 2019-06-17 16:03+0200\n"
+"POT-Creation-Date: 2019-08-05 14:39+0200\n"
 "PO-Revision-Date: 2017-10-09 15:47+0200\n"
 "Last-Translator: Abdo Hamoud <abdo.host@yahoo.com>\n"
 "Language-Team: Tatwerat Team <admin@tatwerat.com>\n"
@@ -21,30 +21,30 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: assets\n"
 "X-Poedit-SearchPathExcluded-1: nbproject\n"
 
-#: includes/templates/template-page.php:3
-msgid "Subscription List"
+#: includes/ah-widget.php:10
+msgid "AH | Youtube Downloader"
 msgstr ""
 
-#: includes/templates/template-page.php:10
-msgid "Client"
+#: includes/ah-widget.php:12
+msgid "Download videos and playlists with multi types"
 msgstr ""
 
-#: includes/templates/template-page.php:11
-msgid "Package"
+#: includes/ah-widget.php:28
+msgid "AH-Youtube Downloader"
 msgstr ""
 
-#: includes/templates/template-page.php:12
-msgid "Payment Status List"
+#: includes/ah-widget.php:32
+msgid "Search ..."
 msgstr ""
 
-#: includes/templates/template-page.php:13
-msgid "Amount"
+#: includes/ah-widget.php:47
+msgid "Title"
 msgstr ""
 
-#: includes/templates/template-page.php:14
-msgid "Create AT"
+#: includes/ah-widget.php:53
+msgid "Hide Title"
 msgstr ""
 
-#: includes/templates/template-page.php:15
-msgid "Actions"
+#: includes/ah-widget.php:57
+msgid "Hide Before & After Widget"
 msgstr ""
