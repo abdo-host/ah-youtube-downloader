@@ -43,6 +43,11 @@ class AH_Youtube_widget extends WP_Widget {
                 </div>
             </form>
             <div class="ah-videos-list"><ul></ul></div>
+            <div class="ah-download-table"
+                 data-ah-download="<?php esc_html_e('Download', 'ah_yt'); ?>"
+                 data-ah-videos="<?php esc_html_e('Videos', 'ah_yt'); ?>"
+                 data-ah-audios="<?php esc_html_e('Audios', 'ah_yt'); ?>"
+                 data-ah-videos_without_audio="<?php esc_html_e('Videos Without Audio', 'ah_yt'); ?>"></div>
         </div>
         <?php
         echo empty($instance['hide_widget']) ? $args['after_widget'] : '';

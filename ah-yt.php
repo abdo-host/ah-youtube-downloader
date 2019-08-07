@@ -46,6 +46,10 @@ add_action('plugins_loaded', 'ah_load_textdomain');
 
 // require plugin widgets
 require_once (AH_PATH . '/includes/ah-widget.php');
+require_once (AH_PATH . '/includes/ah-vc.php');
 
 // require plugin class
 require_once (AH_PATH . '/includes/AHYT.php');
+
+// visual composer initialize
+new AH_YT_VCExtendAddonClass();

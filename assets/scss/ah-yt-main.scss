@@ -134,5 +134,33 @@ $imp: !important;
             }
         }
     }
+    .ah-download-table {
+        display: none;
+        margin-top: 15px;
+        > table {
+            margin: 0px;
+            background: #fff $imp;
+            border: 1px solid #ddd $imp;
+            box-shadow: none $imp;
+            font-family: tahoma;
+            margin-bottom: 15px;
+            td {
+                vertical-align: middle;
+                border-right: 0px;
+            }
+            &:last-of-type {
+                margin: 0px;
+            }
+            .ah-download-link {
+                background: #46b237;
+                display: inline-block;
+                padding: 3px 8px;
+                font-size: 14px;
+                color: #fff;
+                text-decoration: none;
+                float: right;
+            }
+        }
+    }
 }
 
